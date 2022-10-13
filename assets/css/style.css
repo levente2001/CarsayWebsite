@@ -24,7 +24,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --amaranth: hsl(349, 69%, 53%);
-  --xiketic-1: hsl(272, 55%, 6%);
+  --xiketic-1: #154360;
   --xiketic-2: hsl(256, 100%, 3%);
   --nsu-purple: hsl(270, 55%, 31%);
   --silver-sand: hsl(220, 10%, 76%);
@@ -73,7 +73,9 @@
 
 li { list-style: none; }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none;
+ }
 
 img, span, button, a, ion-icon { display: block; }
 
@@ -97,7 +99,7 @@ body { overflow-x: hidden; }
 ::-webkit-scrollbar-track { background: var(--xiketic-1); }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--nsu-purple);
+  background: #A9CCE3;
   border-radius: 10px;
 }
 
@@ -120,7 +122,7 @@ body { overflow-x: hidden; }
 }
 
 .btn-primary {
-  background: var(--amaranth);
+  background: #f2252c;
   color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-500);
@@ -323,9 +325,13 @@ main { background: var(--xiketic-1); }
 .overview { padding: 80px 0; }
 
 .overview-card {
-  background: var(--xiketic-2);
-  border-radius: 12px;
-  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.5);
+  background: #A9CCE3;
+  border-radius: 16px;
+  border: thick solid white;
+}
+.overview-list {
+  display: table;
+  margin: 0 auto;
 }
 
 .overview-banner { padding: 40px 0; }
@@ -342,7 +348,8 @@ main { background: var(--xiketic-1); }
 
 .overview-text {
   margin-bottom: 40px;
-  color: var(--light-periwinkle);
+  color: #000;
+  font-weight: bold;
 }
 
 .overview-item {
