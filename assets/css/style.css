@@ -3,9 +3,7 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
+
 
 
 
@@ -440,7 +438,7 @@ main { background: var(--xiketic-1); }
  * #FOOTER
 \*-----------------------------------*/
 
-footer { background: var(--xiketic-2); }
+footer { background: #154360; }
 
 footer .container { padding: 80px 15px; }
 
@@ -493,7 +491,6 @@ footer .container { padding: 80px 15px; }
   padding: 20px 15px;
   text-align: center;
   font-size: var(--fs-6);
-  border-top: 1px solid hsla(240, 30%, 83%, 0.1);
 }
 
 
